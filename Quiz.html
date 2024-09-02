@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Ms. Rev: The Quiz Whiz</title>
+  <style>
+  body {
+    font-family: Garamond, Garamond, sans-serif;
+    background-image: linear-gradient(to bottom, transparent, #837960), url('https://www.tamus.edu/presidential-search/wp-content/uploads/sites/119/2020/09/TAMU_Aerials_028_A-scaled.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+  }
+
+  h1{
+    padding-top: 50px;
+    text-align: center;
+  }
+
+  button {
+    background-color: #6e1c03;
+    color: white;
+    font-size: 16px;
+    padding: 32px 16px;
+    margin: 25px auto;
+    border: none;
+    cursor: pointer;
+    width: 80%;
+    display:block;
+    text-align: center;
+  }
+  
+  button:hover {
+    opacity: 0.8;
+  }
+  p {
+    text-align: center;
+    font-size: 20px;
+  }
+  input {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+    text-align: center;
+  }
+</style>
+</head>    
+<body>
+    <h1>Ms. Rev: The Quiz Whiz</h1>
+    <h3 id="username"></h3>
+    <script>
+        document.getElementById("username").textContent = correctUsername
+    </script>
+    <p>Question 1</p>
+    <p>What is 5 times 5?</p>
+    <div>
+    <p>25</p>
+    <input type = "checkbox">
+    <p>0</p>
+    <input type = "checkbox">
+    <p>10</p>
+    <input type = "checkbox">
+    <p>15</p>
+    <input type = "checkbox">
+    </div>
+    <p>Question 2</p>
+    <p>What is 3 times 9?</p>
+    <div>
+    <p>27</p>
+    <input type = "checkbox" value="27">
+    </div>
+    <div>
+    <p>9</p>
+    <input type = "checkbox" value="9">
+    </div>
+    <div>
+    <p>12</p>
+    <input type = "checkbox" value="12">
+    </div>
+    <div>
+    <p>15</p>
+    <input type = "checkbox" value="18">
+    </div>
+    
+
+</body>
+</html>

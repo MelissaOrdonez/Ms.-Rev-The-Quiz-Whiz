@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Ms. Rev: The Quiz Whiz</title>
+  <style>
+  body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-image: linear-gradient(to bottom, transparent, #837960), url('https://www.tamus.edu/presidential-search/wp-content/uploads/sites/119/2020/09/TAMU_Aerials_028_A-scaled.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+  }
+
+  h1{
+    padding-top: 50px;
+    text-align: center;
+  }
+
+  
+  button {
+    background-color: #800000;
+    color: white;
+    padding: 14px 20px;
+    margin: auto;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    display:block;
+  }
+  
+  button:hover {
+    opacity: 0.8;
+  }
+  input {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+    text-align: center;
+  }
+  textarea {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+    text-align: center;
+  }
+  h1{
+    padding-top: 50px;
+    font-size: 80px;
+    text-align: center;
+    text-shadow: 2px 2px 2px rgb(255, 255, 255);
+  }
+  label {
+    padding-top: 25px;
+    font-size: 20px;
+    text-align: center;
+    text-shadow: 0.5px 0.5px 0.5px rgb(255, 255, 255);
+  }
+</style>
+</head>    
+<body>
+    <h1>Quiz Creator</h1>
+  
+    <label for="ClassNum"><b>Class Number</b></label>
+    <input type="number" min = 1 placeholder="Class Number" id="ClassNum" required>
+    
+    <label for="Topic"><b>Topic</b></label>
+    <input type="text" placeholder="Enter Topic of Question" id="Topic" required>
+  
+    <label for="Type"><b>Type of Question</b></label>
+    <input type="text" placeholder="Enter Type of Question" id="Type" required>
+  
+    <label for="QueNum"><b>Number of Questions</b></label>
+    <input type="number" min = 1 placeholder="Number of Questions" id="QueNum" required>
+    
+    <label for="Notes"><b>Notes</b></label>
+    <textarea rows = "5" cols = "60" name = "Notes" id="Notes"></textarea>
+          
+    <button type="submit" onclick="clickbuttonlogin()">Submit</button>
+</body>
+</html>

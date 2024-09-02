@@ -1,0 +1,7 @@
+{
+    "type": "module",
+    "dependencies": {
+        "@google-ai/generativelanguage": "^2.1.0",
+        "google-auth-library": "^9.7.0"
+    }
+}
